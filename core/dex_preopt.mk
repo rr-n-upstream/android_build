@@ -17,7 +17,7 @@ DEXPREOPT_BOOT_JAR_DIR := system/framework
 DEXPREOPT_BOOT_JAR_DIR_FULL_PATH := $(DEXPREOPT_PRODUCT_DIR_FULL_PATH)/$(DEXPREOPT_BOOT_JAR_DIR)
 
 # The default value for LOCAL_DEX_PREOPT
-DEX_PREOPT_DEFAULT ?= true
+DEX_PREOPT_DEFAULT ?= false
 
 # The default filter for which files go into the system_other image (if it is
 # being used). To bundle everything one should set this to '%'
